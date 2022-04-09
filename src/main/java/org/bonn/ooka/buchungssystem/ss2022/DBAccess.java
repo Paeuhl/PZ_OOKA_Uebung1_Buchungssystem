@@ -19,7 +19,7 @@ public class DBAccess {
 	public DBAccess() {   
 		
 	} 
-
+/*
 	public static void main(String[] args) {
 		DBAccess acc = new DBAccess();
 		System.out.println("Mini-Tutorial der Klasse DBAccess" );
@@ -47,7 +47,8 @@ public class DBAccess {
 		// TODO Auto-generated method stub
 
 	}
-	
+	*/
+
 	public void openConnection(){
 		  try {
 			DriverManager.registerDriver( new org.postgresql.Driver() ); 
